@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Dancing Script", cursive;
+  /* font-family: 'Noto Sans', sans-serif; */
+  /* background-color: black; */
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  font-size: 24px;
+  padding: 10px 36px;
+
+  align-items: center;
+}
+.header {
+}
+.header-mid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.heading {
+  font-size: 56px;
+}
+.item-one {
+  color: #ffad33;
+}
+.body-humberger {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.body-button {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  /* padding: 56px; */
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 24px;
+}
+
+.list-item {
+}
+
+.head-right {
+}
+
+.fa-regular {
+}
+
+.fa-user {
+}
+
+.fa-solid {
+}
+
+.fa-cart-shopping {
+}
+
+.fa-magnifying-glass {
+}
+
+.button-header {
+  height: 36px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  padding: 0 16px;
+  cursor: pointer;
+  background-color: #ffad33;
+  color: #fff;
+}
+.dot-humberger {
+  display: flex;
+  gap: 5px;
+  margin-top: 90px;
+}
+.checkbox {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.checkbox:hover {
+  background-color: #ffad33;
+}
+.main-bot {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.img-cover {
+  background-image: url(400669846_376215401405003_2524255776788594759_n.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-cover2 {
+  height: calc(100vh - 600px);
+  background-color: #3a4b54;
+}
+.body-buttonsecond {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  background-color: #4d646f;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
